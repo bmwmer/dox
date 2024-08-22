@@ -22,5 +22,3 @@ COPY . .
 EXPOSE 3000
 
 CMD ["node", "index.js", "--server"]
-
-CMD ["npm i -g forever && forever index.js && forever save && forever logs"] 
